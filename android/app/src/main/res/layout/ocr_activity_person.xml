@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhiteSmoke"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title_name"
+        android:layout_width="fill_parent"
+        android:layout_height="40pt"
+        android:gravity="center"
+        android:text="@string/empty_default"
+        android:textColor="@color/colorBlack"
+        android:textSize="25sp"
+        />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="230pt"
+                android:gravity="center_horizontal"
+                >
+                <ImageView
+                    android:id="@+id/id_pic"
+                    android:layout_marginTop="10pt"
+                    android:layout_width="320pt"
+                    android:layout_height="200pt"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/id_card"
+                    android:contentDescription="@string/ocr_image_desc" />
+            </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:orientation="vertical"
+            android:background="@color/colorGrey"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/colorWhite">
+
+            <RelativeLayout
+                android:layout_marginLeft="20pt"
+                android:layout_marginRight="20pt"
+                android:layout_width="match_parent"
+                android:layout_height="40pt"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/txt_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40pt"
+                    android:textAlignment="center"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/colorBlack"
+                    android:text="@string/ocr_gender"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/id_name"
+                    android:labelFor="@id/id_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40pt"
+                    android:textAlignment="center"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:gravity="center_horizontal"
+                    android:inputType="none"
+                    android:background="@null"
+                    android:textColor="@color/colorGrey"
+                    android:singleLine="true"
+                    android:maxLength="8"
+                    android:text="@string/empty_default"
+                    android:textSize="16sp"
+                    android:layout_toEndOf="@id/id_name"
+                    android:importantForAutofill="no" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:orientation="vertical"
+                android:background="@color/colorGrey"
+                />
+
+            <RelativeLayout
+                android:layout_marginLeft="20pt"
+                android:layout_marginRight="20pt"
+                android:layout_width="match_parent"
+                android:layout_height="40pt"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_gender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40pt"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/colorBlack"
+                    android:text="@string/ocr_gender"
+                    android:textSize="16sp"
+                    />
+
+                <TextView
+                    android:id="@+id/id_sex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40pt"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/colorGrey"
+                    android:text="@string/empty_default"
+                    android:textSize="16sp"
+                    android:layout_toEndOf="@+id/txt_gender"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:orientation="vertical"
+                android:background="@color/colorGrey"
+                />
+            <RelativeLayout
+                android:layout_marginLeft="20pt"
+                android:layout_marginRight="20pt"
+                android:layout_width="match_parent"
+                android:layout_height="40pt"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_id_card_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40pt"
+                    android:textAlignment="center"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/colorBlack"
+                    android:background="@null"
+                    android:text="@string/ocr_id_card_number"
+                    android:textSize="16sp"
+                    />
+
+                <EditText
+                    android:id="@+id/id_number"
+                    android:labelFor="@id/id_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40pt"
+                    android:textAlignment="center"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:gravity="center_horizontal"
+                    android:background="@null"
+                    android:inputType="number"
+                    android:digits="0123456789X"
+                    android:textColor="@color/colorGrey"
+                    android:singleLine="true"
+                    android:maxLength="18"
+                    android:text="@string/empty_default"
+                    android:textSize="16sp"
+                    android:layout_toEndOf="@id/txt_id_card_number"
+                    android:importantForAutofill="no" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:orientation="vertical"
+                android:background="@color/colorGrey"
+                />
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_marginLeft="20pt"
+            android:layout_marginRight="20pt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20pt"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/submit_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ocr_shape"
+                android:textColor="@color/colorWhite"
+                android:textSize="16sp"
+                android:text="@string/ocr_upload" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

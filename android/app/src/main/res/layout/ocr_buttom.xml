@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60pt"
+    android:background="#fffafa"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/id_tab_home"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/id_tab_home_img"
+            android:layout_width="35pt"
+            android:layout_height="30pt"
+            android:layout_marginTop="5pt"
+            android:clickable="false"
+            android:scaleType="fitXY"
+            android:src="@drawable/vehicle_license_blur_icon2x"
+            android:background="#00000000"/>
+
+       <TextView
+           android:id="@+id/text_driving"
+            android:text="行驶证"
+            android:textColor="@color/colorGrey"
+            android:layout_width="wrap_content"
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:layout_height="22pt"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_tab_categorise"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/id_tab_categorise_img"
+            android:layout_width="35pt"
+            android:layout_height="30pt"
+            android:layout_marginTop="5pt"
+            android:clickable="false"
+            android:scaleType="fitXY"
+            android:src="@drawable/transport_blur_icon2x"
+            android:background="#00000000"/>
+
+        <TextView
+            android:id="@+id/text_transport"
+            android:text="运输证"
+            android:textColor="@color/colorGrey"
+            android:layout_width="wrap_content"
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:layout_height="22pt"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_tab_discovery"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/id_tab_discovery_img"
+            android:layout_width="35pt"
+            android:layout_height="30pt"
+            android:layout_marginTop="5pt"
+            android:clickable="false"
+            android:scaleType="fitXY"
+            android:src="@drawable/id_card_blur_icon2x"
+            android:background="#00000000"/>
+
+        <TextView
+            android:id="@+id/text_professional"
+            android:text="从业人员"
+            android:textColor="@color/colorGrey"
+            android:layout_width="wrap_content"
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:layout_height="22pt"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_tab_me"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/id_tab_me_img"
+            android:layout_width="35pt"
+            android:layout_height="30pt"
+            android:layout_marginTop="5pt"
+            android:clickable="false"
+            android:scaleType="fitXY"
+            android:src="@drawable/car_photo_blur_icon2x"
+            android:background="#00000000"/>
+
+        <TextView
+            android:id="@+id/text_car_picture"
+            android:text="车辆照片"
+            android:textColor="@color/colorGrey"
+            android:layout_width="wrap_content"
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:layout_height="22pt"/>
+    </LinearLayout>
+</LinearLayout>

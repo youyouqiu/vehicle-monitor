@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="90pt"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_weight="1"
+    >
+
+    <LinearLayout
+        android:layout_width="110pt"
+        android:layout_height="45pt"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:id="@+id/professional_choose"
+            android:layout_width="20pt"
+            android:layout_height="20pt"
+            android:scaleType="fitXY"
+            android:src="@drawable/renyuan" />
+        <TextView
+            android:id="@+id/professional"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/colorBlack"
+            android:text="--" />
+    </LinearLayout>
+</LinearLayout>

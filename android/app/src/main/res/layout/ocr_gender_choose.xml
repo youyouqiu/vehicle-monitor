@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50pt"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/colorGrey"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="0pt"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            >
+            <Button
+                android:id="@+id/gender_comfirm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="0pt"
+                android:background="@null"
+                android:textColor="@color/colorBlue"
+                android:text="完成"
+                android:textSize="18sp"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/gender_man"
+        android:layout_width="fill_parent"
+        android:layout_height="50pt"
+        android:gravity="center_horizontal"
+        android:background="@color/colorGrey"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlack"
+        android:text="男"
+        android:textSize="22sp"
+        />
+    <TextView
+        android:id="@+id/gender_woman"
+        android:layout_width="fill_parent"
+        android:layout_height="50pt"
+        android:gravity="center_horizontal"
+        android:background="@color/colorGrey"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlack"
+        android:text="女"
+        android:textSize="22sp"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="25pt"
+        android:layout_gravity="center"
+        android:background="@color/colorGrey"
+        android:textColor="@color/colorBlack"
+        />
+
+
+</LinearLayout>

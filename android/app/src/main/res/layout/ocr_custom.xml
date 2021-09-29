@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <SurfaceView
+            android:id="@+id/preview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true" />
+
+        <ImageButton
+            android:id="@+id/orc_cancel"
+            android:layout_width="30pt"
+            android:layout_height="30pt"
+            android:layout_marginTop="30pt"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:src="@drawable/guanbi2x" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout_test"
+            android:layout_width="match_parent"
+            android:layout_height="90pt"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:background="@color/colorBlack">
+
+            <LinearLayout
+                android:layout_width="0pt"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/ocr_open_picture"
+                    android:layout_width="30pt"
+                    android:layout_height="30pt"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/tuku2x" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0pt"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/ocr_take_picture"
+                    android:layout_width="55pt"
+                    android:layout_height="55pt"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/paizhaoanniu2x" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0pt"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/ocr_open_light"
+                    android:layout_width="30pt"
+                    android:layout_height="30pt"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/dengpao_dianjihou2x" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/clut"
+        android:layout_width="wrap_content"
+        android:background="@drawable/cluster"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/onTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp"
+            android:text="1"
+            android:textColor="#333333"
+            android:textSize="80sp" />
+    </RelativeLayout>
+</LinearLayout>

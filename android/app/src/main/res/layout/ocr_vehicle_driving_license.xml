@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhiteSmoke"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40pt"
+        android:background="@color/colorBlue"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/vehicle_plant"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorWhiteSmoke"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold"
+            android:text="--" />
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/change"
+        android:layout_width="match_parent"
+        android:layout_height="40pt"
+        android:background="@color/colorWhite"
+        android:orientation="horizontal"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/id_top_1"
+            android:text="行驶证正本"
+            android:textColor="@color/colorGrey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/id_top_2"
+            android:text="行驶证副本"
+            android:textColor="@color/colorGrey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            />
+    </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+         android:id="@+id/id_bottom_border"
+        android:layout_width="match_parent"
+        android:layout_height="2pt"
+        android:orientation="horizontal"
+        android:background="@color/colorWhite"
+        >
+        <LinearLayout
+            android:id="@+id/id_bottom_border_1"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/id_bottom_border_2"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/border"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:orientation="vertical"
+        android:background="@color/colorGrey"
+        />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/id_driving_license_viewpager"
+        android:layout_width="fill_parent"
+        android:layout_height="0pt"
+        android:layout_weight="1">
+    </androidx.viewpager.widget.ViewPager>
+
+
+</LinearLayout>

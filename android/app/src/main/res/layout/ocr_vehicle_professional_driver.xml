@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="230pt"
+                android:gravity="center_horizontal"
+                >
+                <ImageView
+                    android:id="@+id/id_pic"
+                    android:layout_marginTop="10pt"
+                    android:layout_width="320pt"
+                    android:layout_height="200pt"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/driver_license"
+                    />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:orientation="vertical"
+                android:background="@color/colorGrey"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorWhite"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40pt"
+                    android:layout_marginLeft="20pt"
+                    android:layout_marginRight="20pt"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="40pt"
+                        android:background="@null"
+                        android:inputType="none"
+                        android:gravity="center"
+                        android:text="驾驶证号"
+                        android:textAlignment="gravity"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:id="@+id/id_driver_number"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40pt"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:background="@null"
+                        android:gravity="center_horizontal"
+                        android:inputType="none"
+                        android:maxLength="18"
+                        android:singleLine="true"
+                        android:text="--"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorGrey"
+                        android:textSize="15sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:background="@color/colorGrey"
+                    android:orientation="vertical" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40pt"
+                    android:layout_marginLeft="20pt"
+                    android:layout_marginRight="20pt"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="40pt"
+                        android:gravity="center"
+                        android:text="准驾车型"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:id="@+id/id_car_type"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40pt"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:background="@null"
+                        android:inputType="none"
+                        android:gravity="center"
+                        android:text="--"
+                        android:textColor="@color/colorGrey"
+                        android:textSize="15sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/colorGrey"
+                    android:orientation="vertical" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40pt"
+                    android:layout_marginLeft="20pt"
+                    android:layout_marginRight="20pt"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="40pt"
+                        android:background="@null"
+                        android:gravity="center_horizontal"
+                        android:inputType="none"
+                        android:text="有效期起"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/id_start_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40pt"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:background="@null"
+                        android:gravity="center_horizontal"
+                        android:inputType="none"
+                        android:maxLength="18"
+                        android:singleLine="true"
+                        android:text="--"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorGrey"
+                        android:textSize="15sp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/colorGrey"
+                    android:orientation="vertical" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40pt"
+                    android:layout_marginLeft="20pt"
+                    android:layout_marginRight="20pt"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="40pt"
+                        android:background="@null"
+                        android:gravity="center_horizontal"
+                        android:inputType="none"
+                        android:text="有效期至"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/id_end_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40pt"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:background="@null"
+                        android:gravity="center_horizontal"
+                        android:inputType="none"
+                        android:maxLength="18"
+                        android:singleLine="true"
+                        android:text="--"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorGrey"
+                        android:textSize="15sp" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/colorGrey"
+                    android:orientation="vertical" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20pt"
+                android:layout_marginLeft="20pt"
+                android:layout_marginRight="20pt"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/submit_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ocr_shape"
+                    android:textSize="15sp"
+                    android:textColor="@color/colorWhite"
+                    android:radius="8dip"
+                    android:text="上传证件" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

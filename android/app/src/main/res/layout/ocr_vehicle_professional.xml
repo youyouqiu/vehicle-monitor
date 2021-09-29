@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhiteSmoke"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40pt"
+        android:background="@color/colorWhiteSmoke"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+        <TextView
+            android:id="@+id/vehicle_plant"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textSize="17sp"
+            android:textColor="@color/colorBlack"
+            android:text="--" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/professional"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack"
+                android:text="--" />
+            <ImageView
+                android:id="@+id/professional_more"
+                android:layout_width="42px"
+                android:layout_height="42px"
+                android:background="@color/colorWhiteSmoke"
+                android:scaleType="fitXY" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+            <ImageButton
+                android:id="@+id/professional_add"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:background="@color/colorWhiteSmoke"
+                android:gravity="center"
+                android:scaleType="fitXY"
+                android:src="@drawable/add_people_icon" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/professional_null"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="600px"
+            android:gravity="center_vertical|center"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="205px"
+                android:layout_height="205px"
+
+                >
+            <ImageView
+                android:id="@+id/professional_choose"
+                android:layout_width="205px"
+                android:layout_height="205px"
+                android:scaleType="fitXY"
+                android:src="@drawable/no_professional" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_marginTop="80px"
+                android:layout_height="200px"
+                >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorGrey"
+                android:text="该监控对象未关联从业人员"
+                android:textSize="15sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="fill_parent"
+        android:background="@color/colorSkyBlue"
+        android:layout_height="45pt"
+        android:scrollbars="none">
+        <LinearLayout
+            android:id="@+id/scrollview_linearlayout"
+            android:layout_width="wrap_content"
+            android:layout_height="45pt"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            >
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:id="@+id/add_professional_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="230pt"
+                android:gravity="center_horizontal"
+                >
+                <ImageView
+                    android:id="@+id/id_pic_addProfessional"
+                    android:layout_marginTop="10pt"
+                    android:layout_width="320pt"
+                    android:layout_height="200pt"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/id_card"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20pt"
+            android:layout_marginRight="20pt"
+            android:layout_marginTop="20pt"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/add_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ocr_shape"
+                android:textSize="15sp"
+                android:textColor="@color/colorWhite"
+                android:radius="8dip"
+                android:text="上传证件" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/change"
+        android:layout_width="match_parent"
+        android:layout_height="40pt"
+        android:background="@color/colorWhite"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/id_top_1"
+                android:text="身份证"
+                android:textColor="@color/colorGrey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/id_top_2"
+                android:text="驾驶证"
+                android:textColor="@color/colorGrey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/id_top_3"
+                android:text="从业资格证"
+                android:textColor="@color/colorGrey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_bottom_border"
+        android:layout_width="match_parent"
+        android:background="@color/colorWhite"
+        android:layout_height="2pt"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:id="@+id/id_bottom_border_1"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/id_bottom_border_2"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/id_bottom_border_3"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+        </LinearLayout>
+    </LinearLayout>
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1px"-->
+        <!--android:orientation="vertical"-->
+        <!--android:background="@color/colorGrey"-->
+        <!--/>-->
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/id_professional_license_viewpager"
+        android:layout_width="fill_parent"
+        android:layout_height="0pt"
+        android:layout_weight="1">
+    </androidx.viewpager.widget.ViewPager>
+
+
+</LinearLayout>

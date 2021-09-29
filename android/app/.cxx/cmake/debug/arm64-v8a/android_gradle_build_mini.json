@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "D:\\pc\\app\\android\\app\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\Admin\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\pc\\app\\android\\app\\.cxx\\cmake\\debug\\arm64-v8a --target clean"
+  ],
+  "libraries": {
+    "ZWStreamPlayer-Debug-arm64-v8a": {
+      "artifactName": "ZWStreamPlayer",
+      "buildCommand": "C:\\Users\\Admin\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\pc\\app\\android\\app\\.cxx\\cmake\\debug\\arm64-v8a --target ZWStreamPlayer",
+      "abi": "arm64-v8a",
+      "output": "D:\\pc\\app\\android\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libZWStreamPlayer.so"
+    }
+  }
+}

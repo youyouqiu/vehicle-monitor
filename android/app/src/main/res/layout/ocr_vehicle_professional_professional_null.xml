@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    >
+
+    <ImageView
+        android:id="@+id/professional_choose"
+        android:layout_width="200pt"
+        android:layout_height="200pt"
+        android:scaleType="fitXY"
+        android:src="@drawable/renyuan" />
+    <TextView
+        android:id="@+id/professional"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/colorBlack"
+        android:text="该监控对象未关联从业人员" />
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1758075161/android.rnProject.react-native-video.iml" filepath="$PROJECT_DIR$/.idea/modules/-1758075161/android.rnProject.react-native-video.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rnProject.iml" filepath="$PROJECT_DIR$/rnProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/rnProject.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/rnProject.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1930965064/rnProject.react-native-community_async-storage.iml" filepath="$PROJECT_DIR$/.idea/modules/1930965064/rnProject.react-native-community_async-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-835327868/rnProject.react-native-community_cameraroll.iml" filepath="$PROJECT_DIR$/.idea/modules/-835327868/rnProject.react-native-community_cameraroll.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1916468923/rnProject.react-native-community_masked-view.iml" filepath="$PROJECT_DIR$/.idea/modules/-1916468923/rnProject.react-native-community_masked-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-970034839/rnProject.react-native-community_netinfo.iml" filepath="$PROJECT_DIR$/.idea/modules/-970034839/rnProject.react-native-community_netinfo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1327403868/rnProject.react-native-community_viewpager.iml" filepath="$PROJECT_DIR$/.idea/modules/1327403868/rnProject.react-native-community_viewpager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/158955314/rnProject.react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/158955314/rnProject.react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/778906436/rnProject.react-native-linear-gradient.iml" filepath="$PROJECT_DIR$/.idea/modules/778906436/rnProject.react-native-linear-gradient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/944632563/rnProject.react-native-picker_picker.iml" filepath="$PROJECT_DIR$/.idea/modules/944632563/rnProject.react-native-picker_picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/461762474/rnProject.react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/461762474/rnProject.react-native-reanimated.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1211397349/rnProject.react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/-1211397349/rnProject.react-native-safe-area-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-685113101/rnProject.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/-685113101/rnProject.react-native-screens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/346736507/rnProject.react-native-sound.iml" filepath="$PROJECT_DIR$/.idea/modules/346736507/rnProject.react-native-sound.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2118270400/rnProject.react-native-spinkit.iml" filepath="$PROJECT_DIR$/.idea/modules/2118270400/rnProject.react-native-spinkit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1101703888/rnProject.react-native-svg.iml" filepath="$PROJECT_DIR$/.idea/modules/1101703888/rnProject.react-native-svg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1301350770/rnProject.react-native-view-shot.iml" filepath="$PROJECT_DIR$/.idea/modules/-1301350770/rnProject.react-native-view-shot.iml" />
+    </modules>
+  </component>
+</project>

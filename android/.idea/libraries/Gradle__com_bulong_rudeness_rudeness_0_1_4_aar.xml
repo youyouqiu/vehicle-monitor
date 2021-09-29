@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.bulong.rudeness:rudeness:0.1.4@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/814a82903d414780a3e502e3d88cf7ae/rudeness-0.1.4/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fe4f9e4fedeb08e67b4cc988ff338659/jetified-rudeness-0.1.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fe4f9e4fedeb08e67b4cc988ff338659/jetified-rudeness-0.1.4/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fe4f9e4fedeb08e67b4cc988ff338659/jetified-rudeness-0.1.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/814a82903d414780a3e502e3d88cf7ae/rudeness-0.1.4/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/814a82903d414780a3e502e3d88cf7ae/rudeness-0.1.4/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.bulong.rudeness/rudeness/0.1.4/4b9babe817c7d03c3f99645ad58e0a6beadf589c/rudeness-0.1.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.bulong.rudeness/rudeness/0.1.4/fd6c2c33b05cbe82b00c54a828e7938e5e198885/rudeness-0.1.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

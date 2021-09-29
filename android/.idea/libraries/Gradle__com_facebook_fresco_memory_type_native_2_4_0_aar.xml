@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.facebook.fresco:memory-type-native:2.4.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4de0032de64bf31f96368dbb7c3bb9a0/memory-type-native-2.4.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/835245b7a4d6a919c559d9745568c64c/jetified-memory-type-native-2.4.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/835245b7a4d6a919c559d9745568c64c/jetified-memory-type-native-2.4.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/835245b7a4d6a919c559d9745568c64c/jetified-memory-type-native-2.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4de0032de64bf31f96368dbb7c3bb9a0/memory-type-native-2.4.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4de0032de64bf31f96368dbb7c3bb9a0/memory-type-native-2.4.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/memory-type-native/2.4.0/13ed4affe2aa05de1c37296809021eea43bdc83b/memory-type-native-2.4.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/memory-type-native/2.4.0/4deb956bf291a3c14e60af142cd58a5c48f9ef71/memory-type-native-2.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

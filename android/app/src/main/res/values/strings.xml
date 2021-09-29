@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">F3监控</string>
+    <string name="timepicker_year">年</string>
+    <string name="timepicker_month">月</string>
+    <string name="timepicker_day">日</string>
+    <string name="timepicker_hour">时</string>
+    <string name="timepicker_min">分</string>
+    <string name="timepicker_title">选择时间</string>
+    <string name="timepicker_finish">确认</string>
+    <string name="timepicker_title_default">设置</string>
+    <string name="empty_default">--</string>
+    <string name="ocr_name">姓名:</string>
+    <string name="ocr_gender">性别:</string>
+    <string name="ocr_id_card_number">身份证:</string>
+    <string name="ocr_upload">上传证件</string>
+    <string name="ocr_image_desc">上传证件照片</string>
+</resources>

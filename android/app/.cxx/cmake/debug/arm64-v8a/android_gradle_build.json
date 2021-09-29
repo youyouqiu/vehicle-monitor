@@ -1,0 +1,98 @@
+
+{
+	"buildFiles" : [ "D:/pc/app/android/app/src/main/cpp/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"C:\\Users\\Admin\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\pc\\app\\android\\app\\.cxx\\cmake\\debug\\arm64-v8a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"ZWStreamPlayer-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "ZWStreamPlayer",
+			"buildCommand" : "C:\\Users\\Admin\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\pc\\app\\android\\app\\.cxx\\cmake\\debug\\arm64-v8a --target ZWStreamPlayer",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=C:/Users/Admin/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Admin/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DANDROID=1 -DZWStreamPlayer_EXPORTS   -std=c++17 -pthread -Wall -g -O3 -UNDEBUG -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/pc/app/android/app/src/main/cpp/MediaStreamServer.cpp",
+					"workingDirectory" : "D:/pc/app/android/app/.cxx/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=C:/Users/Admin/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Admin/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DANDROID=1 -DZWStreamPlayer_EXPORTS   -std=c++17 -pthread -Wall -g -O3 -UNDEBUG -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/pc/app/android/app/src/main/cpp/ZWStreamJni.cpp",
+					"workingDirectory" : "D:/pc/app/android/app/.cxx/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=C:/Users/Admin/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Admin/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DANDROID=1 -DZWStreamPlayer_EXPORTS   -std=c++17 -pthread -Wall -g -O3 -UNDEBUG -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/pc/app/android/app/src/main/cpp/ZWStreamPlayer.cpp",
+					"workingDirectory" : "D:/pc/app/android/app/.cxx/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=C:/Users/Admin/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Admin/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DANDROID=1 -DZWStreamPlayer_EXPORTS   -std=c++17 -pthread -Wall -g -O3 -UNDEBUG -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/pc/app/android/app/src/main/cpp/ZWHardDecoder.cpp",
+					"workingDirectory" : "D:/pc/app/android/app/.cxx/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=C:/Users/Admin/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Admin/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DANDROID=1 -DZWStreamPlayer_EXPORTS   -std=c++17 -pthread -Wall -g -O3 -UNDEBUG -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/pc/app/android/app/src/main/cpp/ZWStreamGLView.cpp",
+					"workingDirectory" : "D:/pc/app/android/app/.cxx/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=C:/Users/Admin/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Admin/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DANDROID=1 -DZWStreamPlayer_EXPORTS   -std=c++17 -pthread -Wall -g -O3 -UNDEBUG -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/pc/app/android/app/src/main/cpp/WebSocketStateDelegate.cpp",
+					"workingDirectory" : "D:/pc/app/android/app/.cxx/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=C:/Users/Admin/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Admin/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DANDROID=1 -DZWStreamPlayer_EXPORTS   -std=c++17 -pthread -Wall -g -O3 -UNDEBUG -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/pc/app/android/app/src/main/cpp/ZWAudioPlayer.cpp",
+					"workingDirectory" : "D:/pc/app/android/app/.cxx/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=C:/Users/Admin/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Admin/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DANDROID=1 -DZWStreamPlayer_EXPORTS   -std=c++17 -pthread -Wall -g -O3 -UNDEBUG -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/pc/app/android/app/src/main/cpp/AdpcmCoder.cpp",
+					"workingDirectory" : "D:/pc/app/android/app/.cxx/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=C:/Users/Admin/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Admin/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DANDROID=1 -DZWStreamPlayer_EXPORTS   -std=c++17 -pthread -Wall -g -O3 -UNDEBUG -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/pc/app/android/app/src/main/cpp/G726Coder.cpp",
+					"workingDirectory" : "D:/pc/app/android/app/.cxx/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=C:/Users/Admin/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Admin/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DANDROID=1 -DZWStreamPlayer_EXPORTS   -std=c++17 -pthread -Wall -g -O3 -UNDEBUG -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/pc/app/android/app/src/main/cpp/Rtp808Frame.cpp",
+					"workingDirectory" : "D:/pc/app/android/app/.cxx/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=C:/Users/Admin/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Admin/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DANDROID=1 -DZWStreamPlayer_EXPORTS   -std=c++17 -pthread -Wall -g -O3 -UNDEBUG -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/pc/app/android/app/src/main/cpp/G711Coder.cpp",
+					"workingDirectory" : "D:/pc/app/android/app/.cxx/cmake/debug/arm64-v8a"
+				}
+			],
+			"output" : "D:/pc/app/android/app/build/intermediates/cmake/debug/obj/arm64-v8a/libZWStreamPlayer.so",
+			"toolchain" : "3054552797"
+		}
+	},
+	"toolchains" : 
+	{
+		"3054552797" : 
+		{
+			"cCompilerExecutable" : "C:/Users/Admin/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/Users/Admin/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

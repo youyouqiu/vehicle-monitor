@@ -1,0 +1,116 @@
+POST http://192.168.24.37:8080/clbs/oauth/token
+    ?username=wushengsong
+    &password=123456
+    &client_id=mobile_1
+    &client_secret=secret_1
+    &grant_type=password
+
+POST http://192.168.24.127:8080/clbs/oauth/token
+    ?username=ally
+    &password=000000
+    &client_id=mobile_1
+    &client_secret=secret_1
+    &grant_type=password
+
+GET http://192.168.24.37:8080/clbs/app/customInfo
+?access_token=b6e6438a-48da-478d-add8-745e61c78eb6
+
+POST http://192.168.24.127:8080/clbs/app/risk/security/getRiskList
+?access_token=aa9fc44f-1555-45f7-82cf-e2b7a565ef8c
+
+# 主动安全-风险列表详情
+POST http://192.168.24.76:8080/clbs/app/risk/security/getRiskList
+?access_token=37176026-b19b-416f-9dd4-60ab2751f151
+&pageNum=2
+&pageSize=8
+&platform=android
+&version=10200
+# 主动安全-风险事件的列表详情
+POST http://192.168.24.37:8080/clbs/app/risk/security/getDayRiskDetail
+?access_token=23d77c10-9204-4a5b-b05e-f9bcecd55d88
+&pageNum=1
+&pageSize=10
+&vehicleId='8183a73e-be8a-47c8-9676-aae82a6d755f'
+&startTime='2019-01-05 00:00:00'
+&endTime='2019-01-06 00:00:00'
+&riskIds=''
+&platform=android
+&version=10201
+# 主动安全-今日风险处置情况
+POST http://192.168.24.37:8080/clbs/app/risk/security/dealInfo
+?access_token=fad99810-10c5-456e-9eeb-3ed6aff64092
+&platform=android
+&version=10200
+# 主动安全-今日报警处置情况
+POST http://192.168.24.37:8080/clbs/app/risk/security/dealInfo
+?access_token=18acb180-c42d-4d29-a552-ca9e9b1fa73f
+&platform=android
+&version=10200
+# 主动安全-今日报警处置情况
+POST http://192.168.24.37:8080/clbs/app/risk/security/getMediaInfo
+?access_token=18acb180-c42d-4d29-a552-ca9e9b1fa73f
+&riskId=4bc33527-0276-4fcc-87ce-43ca9d4fdb5d
+&mediaType=2
+&platform=android
+&version=10200
+
+
+GET http://192.168.24.34:8080/clbs/app/alarm/monitor?access_token=57354490-459c-4290-9875-1f17d09f3f61
+&alarmType=1,2,3&startTime=2018-07-08 00:00:00&endTime=2018-08-18 23:59:59
+&pageCount=3&pageSize=6
+
+GET http://192.168.24.34:8080/clbs/app/monitor/monitorIds
+    ?access_token=0cc29593-d119-4944-b770-8625de410898
+
+GET http://192.168.24.34:8080/clbs/app/monitor/bc4333a2-4f4e-47f7-a195-98d38b57a2b4/history/location
+    ?access_token=a1ce043b-2f82-4e1f-8a15-532b929a4976
+    &startTime=2018-10-18 00:00:00
+    &endTime=2018-10-19 00:00:00
+
+GET http://192.168.24.34:8080/clbs/app/monitor/964e7649-11a2-432f-ad9e-12f1937bbc99/history/mileage
+    ?access_token=e047a9e9-6e1e-4e90-9489-099c4faf12ea
+    &startTime=2018-9-8 00:00:00
+    &endTime=2018-9-10 00:00:00
+
+GET http://192.168.24.34:8080/clbs/app/monitor/71fa03da-0556-46ca-ad64-e5e4a17c10d3/history/motor
+    ?access_token=38df212f-227f-497a-870f-3b006a011048
+    &startTime=2018-9-29 10:00:00
+    &endTime=2018-9-29 18:00:00
+
+GET http://192.168.24.34:8080/clbs/app/monitor/2b3e53b6-22ef-4876-ac1a-68d649f64c09/history/mileDayStatistics
+    ?access_token=7038ab17-6150-413b-9306-1d6e3d6d7c04
+    &startDate=2018-9-20
+    &endDate=2018-10-01
+
+POST http://192.168.24.85:8080/clbs/app/risk/riskRank/getDefaultMonitorIds 
+    ?access_token=52491066-f665-4558-83cd-602ea75b9c27
+    &version=10200
+    &platform=android
+    &type=0
+    &defaultSize=100
+    &isFilter=false
+
+POST http://192.168.24.37:8080/clbs/app/reportManagement/onlineReport/list
+    ?access_token=28b17188-3f07-412f-9639-eb3ec3c28996
+    &version=10200
+    &platform=android
+    &moniterIds=3bce9dee-f75f-4e51-bccd-d82b136629de,9bfc8e23-a010-441d-95e1-d9cb122eb7af
+    &startTime=2019-01-10 00:00:00
+    &endTime=2019-01-10 00:00:00
+
+POST http://192.168.24.37:8080/clbs/app/statistic/parkingReport/findSingleMonitorParkingList
+    ?access_token=6b1a8189-242a-419b-b1cb-897392a1be1c
+    &version=10201
+    &platform=android
+    &monitorIds=3bce9dee-f75f-4e51-bccd-d82b136629de
+    &startTime=2019-01-15
+    &endTime=2019-01-15
+
+GET http://192.168.24.34:8080/clbs/app/monitor/ed9c412d-b343-4573-95f3-5c275ed24f88/attached
+    ?access_token=84e3839a-7c39-41e6-9759-8dc7facbb1ec
+
+
+GET http://192.168.24.34:8080/clbs/app/monitor/23f06e22-e2fd-4418-a92b-2d4968a78ec9/history/oilConsume
+    ?access_token=0cc29593-d119-4944-b770-8625de410898
+    &startTime=2018-11-14 00:00:00
+    &endTime=2018-11-14 23:59:59

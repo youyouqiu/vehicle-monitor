@@ -1,0 +1,213 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zwf3lbs.zwf3lbsapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <!-- 这个权限用于进行网络定位-->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!-- 这个权限用于访问GPS定位-->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <!-- 这个权限用于手机常亮-->
+     <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+
+
+    <application
+        android:name="com.zwf3lbs.zwf3lbsapp.MainApplication"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:hardwareAccelerated="true"
+        android:requestLegacyExternalStorage="true"
+        android:usesCleartextTraffic="true">
+        <!--android:theme="@style/AppTheme">-->
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        <activity
+            android:name="com.zwf3lbs.zwf3lbsapp.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+            android:theme="@style/AppThemeOcr" />
+        <activity
+            android:name="com.zwf3lbs.navigation.GPSNaviActivity"
+            android:theme="@style/AppThemeOcr" />
+        <activity
+            android:name="com.zwf3lbs.navigation.BaseActivity"
+            android:theme="@style/AppThemeOcr" />
+        <!--ocr-->
+        <activity
+            android:name="com.zwf3lbs.ocr.activity.vehicle.OcrVehicleMainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeOcr" />
+        <activity
+            android:name="com.zwf3lbs.ocr.activity.person.OcrPersonMainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeOcr" />
+        <activity
+            android:name="com.zwf3lbs.ocr.camera.CustomCameraActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.ActionBar.Screen.NoTitle" />
+        <activity
+            android:name="com.zwf3lbs.ocr.activity.person.PersonResultChooseActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+        <activity
+            android:name="com.zwf3lbs.ocr.activity.vehicle.drivingLicense.DrivingLicensePositiveCameraResultActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+        <activity
+            android:name="com.zwf3lbs.ocr.activity.vehicle.drivingLicense.DrivingLicenseObverseCameraResultActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+        <activity
+            android:name="com.zwf3lbs.ocr.activity.person.ConfirmPersonActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeOcr" />
+        <activity
+            android:name="com.zwf3lbs.ocr.activity.vehicle.drivingLicense.ConfirmDrivingLicensePositiveActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeOcr" />
+        <activity
+            android:name="com.zwf3lbs.ocr.activity.vehicle.drivingLicense.ConfirmDrivingLicenseObverseActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeOcr" />
+        <activity
+            android:name="com.zwf3lbs.ocr.activity.vehicle.transportLicense.TransportLicenseCameraResultActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+        <activity
+            android:name="com.zwf3lbs.ocr.activity.vehicle.transportLicense.ConfirmTransportLicenseActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeOcr" />
+        <activity
+            android:name="com.zwf3lbs.ocr.activity.vehicle.carPicture.ConfirmCarPictureActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeOcr" />
+        <activity
+            android:name="com.zwf3lbs.ocr.activity.vehicle.carPicture.CarPictureCameraResultActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+        <activity
+            android:name="com.zwf3lbs.ocr.activity.vehicle.professional.idCard.ConfirmVehicleActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeOcr" />
+        <activity
+            android:name="com.zwf3lbs.ocr.activity.vehicle.professional.idCard.VehicleResultChooseActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+        <activity
+            android:name="com.zwf3lbs.ocr.activity.vehicle.professional.qualificationCertificate.ConfirmQualificationCertificateActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeOcr" />
+        <activity
+            android:name="com.zwf3lbs.ocr.activity.vehicle.professional.qualificationCertificate.QualificationCertificateCameraResultActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+        <activity
+            android:name="com.zwf3lbs.ocr.activity.vehicle.professional.driverLicense.ConfirmDriverLicenseActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeOcr" />
+        <activity
+            android:name="com.zwf3lbs.ocr.activity.vehicle.professional.driverLicense.DriverLicenseCameraResultActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+        <activity
+            android:name="com.zwf3lbs.ocr.activity.LookPicActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+        <activity
+            android:name="com.zwf3lbs.panorama.PanoramaActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+        <activity
+            android:name="com.zwf3lbs.zwf3lbsapp.wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="tencent1106561424" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:configChanges="orientation|keyboardHidden|screenSize"/>
+        <activity
+            android:name="com.zwf3lbs.navigation.util.CheckPermissionsActivity"
+            android:noHistory="true"/>
+        <activity android:name="com.facebook.flipper.android.diagnostics.FlipperDiagnosticActivity"
+            android:exported="true"/>
+
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" />
+
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="FlOdM54fwpNvVlpQCeV4LY4T6fRiwPRD" />
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="b0362f2eca54b9acf5d7d6868868a24a" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.zwf3lbs.zwf3lbsapp.fileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/app_paths" />
+        </provider>
+        <!--<provider-->
+        <!--android:authorities="com.zwf3lbs.provider.download"-->
+        <!--android:name="android.support.v4.content.FileProvider"-->
+        <!--android:exported="false"-->
+        <!--android:grantUriPermissions="true">-->
+        <!--<meta-data-->
+        <!--android:name="android.support.FILE_PROVIDER_PATHS"-->
+        <!--android:resource="@xml/file_paths"/>-->
+        <!--</provider>-->
+    </application>
+
+</manifest>

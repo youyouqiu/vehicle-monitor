@@ -1,0 +1,7 @@
+<resources>
+
+    <style name="dialog_style_1">
+        <!--注意此处的属性，设置此属性后即可实现Dilaog全屏-->
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>

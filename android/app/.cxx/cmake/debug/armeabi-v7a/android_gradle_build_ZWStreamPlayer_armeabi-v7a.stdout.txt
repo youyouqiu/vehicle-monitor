@@ -1,0 +1,107 @@
+[1/12] Building CXX object CMakeFiles/ZWStreamPlayer.dir/ZWStreamPlayer.cpp.o
+[2/12] Building CXX object CMakeFiles/ZWStreamPlayer.dir/ZWAudioPlayer.cpp.o
+[3/12] Building CXX object CMakeFiles/ZWStreamPlayer.dir/MediaStreamServer.cpp.o
+[4/12] Building CXX object CMakeFiles/ZWStreamPlayer.dir/ZWStreamJni.cpp.o
+[5/12] Building CXX object CMakeFiles/ZWStreamPlayer.dir/ZWStreamGLView.cpp.o
+[6/12] Building CXX object CMakeFiles/ZWStreamPlayer.dir/WebSocketStateDelegate.cpp.o
+[7/12] Building CXX object CMakeFiles/ZWStreamPlayer.dir/ZWHardDecoder.cpp.o
+[8/12] Building CXX object CMakeFiles/ZWStreamPlayer.dir/G711Coder.cpp.o
+[9/12] Building CXX object CMakeFiles/ZWStreamPlayer.dir/G726Coder.cpp.o
+warning: 'volatile' is not permitted on a declaration of a type [-Wmissing-declarations]
+In file included from D:\pc\app\android\app\src\main\cpp\ZWAudioPlayer.cpp:3:
+In file included from D:\pc\app\android\app\src\main\cpp/ZWAudioPlayer.h:4:
+D:\pc\app\android\app\src\main\cpp/CommonPublic.h:211:13: warning: unused function 'writeTestFile' [-Wunused-function]
+static void writeTestFile(const char* flieName, const uint8_t* buffer, int length)
+            ^
+D:\pc\app\android\app\src\main\cpp/CommonPublic.h:220:13: warning: unused function 'clearTestFile' [-Wunused-function]
+static void clearTestFile(const char* flieName)
+            ^
+In file included from D:\pc\app\android\app\src\main\cpp\ZWAudioPlayer.cpp:3:
+D:\pc\app\android\app\src\main\cpp/ZWAudioPlayer.h:30:15: warning: private field 'PAYLOAD_TYPE_G721' is not used [-Wunused-private-field]
+    const int PAYLOAD_TYPE_G721 = 1;
+              ^
+4 warnings generated.
+[10/12] Building CXX object CMakeFiles/ZWStreamPlayer.dir/AdpcmCoder.cpp.o
+In file included from D:\pc\app\android\app\src\main\cpp\ZWStreamGLView.cpp:5:
+In file included from D:\pc\app\android\app\src\main\cpp/ZWStreamGLView.h:8:
+D:\pc\app\android\app\src\main\cpp/CommonPublic.h:211:13: warning: unused function 'writeTestFile' [-Wunused-function]
+static void writeTestFile(const char* flieName, const uint8_t* buffer, int length)
+            ^
+D:\pc\app\android\app\src\main\cpp/CommonPublic.h:220:13: warning: unused function 'clearTestFile' [-Wunused-function]
+static void clearTestFile(const char* flieName)
+            ^
+2 warnings generated.
+[11/12] Building CXX object CMakeFiles/ZWStreamPlayer.dir/Rtp808Frame.cpp.o
+warning: 'volatile' is not permitted on a declaration of a type [-Wmissing-declarations]
+D:\pc\app\android\app\src\main\cpp\ZWStreamJni.cpp:54:10: warning: unused variable 'player' [-Wunused-variable]
+    auto player = reinterpret_cast<ZWStreamPlayer *>(point);
+         ^
+In file included from D:\pc\app\android\app\src\main\cpp\ZWStreamJni.cpp:5:
+D:\pc\app\android\app\src\main\cpp/CommonPublic.h:211:13: warning: unused function 'writeTestFile' [-Wunused-function]
+static void writeTestFile(const char* flieName, const uint8_t* buffer, int length)
+            ^
+D:\pc\app\android\app\src\main\cpp/CommonPublic.h:220:13: warning: unused function 'clearTestFile' [-Wunused-function]
+static void clearTestFile(const char* flieName)
+            ^
+4 warnings generated.
+In file included from D:\pc\app\android\app\src\main\cpp\WebSocketStateDelegate.cpp:1:
+In file included from D:\pc\app\android\app\src\main\cpp/WebSocketStateDelegate.h:6:
+D:\pc\app\android\app\src\main\cpp/CommonPublic.h:211:13: warning: unused function 'writeTestFile' [-Wunused-function]
+static void writeTestFile(const char* flieName, const uint8_t* buffer, int length)
+            ^
+D:\pc\app\android\app\src\main\cpp/CommonPublic.h:220:13: warning: unused function 'clearTestFile' [-Wunused-function]
+static void clearTestFile(const char* flieName)
+            ^
+2 warnings generated.
+D:\pc\app\android\app\src\main\cpp\MediaStreamServer.cpp:339:10: warning: unused variable 'ptr' [-Wunused-variable]
+    auto ptr = _task.bufferInfoRead.buffer.data();
+         ^
+In file included from D:\pc\app\android\app\src\main\cpp\MediaStreamServer.cpp:9:
+In file included from D:\pc\app\android\app\src\main\cpp/MediaStreamServer.h:8:
+D:\pc\app\android\app\src\main\cpp/CommonPublic.h:211:13: warning: unused function 'writeTestFile' [-Wunused-function]
+static void writeTestFile(const char* flieName, const uint8_t* buffer, int length)
+            ^
+D:\pc\app\android\app\src\main\cpp/CommonPublic.h:220:13: warning: unused function 'clearTestFile' [-Wunused-function]
+static void clearTestFile(const char* flieName)
+            ^
+3 warnings generated.
+D:\pc\app\android\app\src\main\cpp\ZWHardDecoder.cpp:2:9: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma ide diagnostic ignored "cppcoreguidelines-avoid-goto"
+        ^
+In file included from D:\pc\app\android\app\src\main\cpp\ZWHardDecoder.cpp:7:
+In file included from D:\pc\app\android\app\src\main\cpp/ZWHardDecoder.h:8:
+D:\pc\app\android\app\src\main\cpp/CommonPublic.h:211:13: warning: unused function 'writeTestFile' [-Wunused-function]
+static void writeTestFile(const char* flieName, const uint8_t* buffer, int length)
+            ^
+D:\pc\app\android\app\src\main\cpp/CommonPublic.h:220:13: warning: unused function 'clearTestFile' [-Wunused-function]
+static void clearTestFile(const char* flieName)
+            ^
+3 warnings generated.
+warning: 'volatile' is not permitted on a declaration of a type [-Wmissing-declarations]
+In file included from D:\pc\app\android\app\src\main\cpp\ZWStreamPlayer.cpp:5:
+In file included from D:\pc\app\android\app\src\main\cpp/ZWStreamPlayer.h:8:
+D:\pc\app\android\app\src\main\cpp/CommonPublic.h:211:13: warning: unused function 'writeTestFile' [-Wunused-function]
+static void writeTestFile(const char* flieName, const uint8_t* buffer, int length)
+            ^
+D:\pc\app\android\app\src\main\cpp/CommonPublic.h:220:13: warning: unused function 'clearTestFile' [-Wunused-function]
+static void clearTestFile(const char* flieName)
+            ^
+In file included from D:\pc\app\android\app\src\main\cpp\ZWStreamPlayer.cpp:5:
+D:\pc\app\android\app\src\main\cpp/ZWStreamPlayer.h:88:14: warning: private field '_lastTime' is not used [-Wunused-private-field]
+    uint64_t _lastTime = 0;
+             ^
+4 warnings generated.
+D:\pc\app\android\app\src\main\cpp\Rtp808Frame.cpp:164:26: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+    Rtp808HeadBaseT rtp={0};
+                         ^
+                         {}
+In file included from D:\pc\app\android\app\src\main\cpp\Rtp808Frame.cpp:5:
+In file included from D:\pc\app\android\app\src\main\cpp/Rtp808Frame.h:8:
+D:\pc\app\android\app\src\main\cpp/CommonPublic.h:211:13: warning: unused function 'writeTestFile' [-Wunused-function]
+static void writeTestFile(const char* flieName, const uint8_t* buffer, int length)
+            ^
+D:\pc\app\android\app\src\main\cpp/CommonPublic.h:220:13: warning: unused function 'clearTestFile' [-Wunused-function]
+static void clearTestFile(const char* flieName)
+            ^
+3 warnings generated.
+[12/12] Linking CXX shared library D:\pc\app\android\app\build\intermediates\cmake\debug\obj\armeabi-v7a\libZWStreamPlayer.so
